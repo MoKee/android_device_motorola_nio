@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.touch@1.0-service.nio"
+#define LOG_TAG "vendor.mokee.touch@1.0-service.nio"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -24,8 +24,8 @@
 using ::android::OK;
 using ::android::sp;
 
-using ::vendor::lineage::touch::V1_0::ITouchscreenGesture;
-using ::vendor::lineage::touch::V1_0::implementation::TouchscreenGesture;
+using ::vendor::mokee::touch::V1_0::ITouchscreenGesture;
+using ::vendor::mokee::touch::V1_0::implementation::TouchscreenGesture;
 
 int main() {
     sp<ITouchscreenGesture> gesture_service = new TouchscreenGesture();

@@ -1028,14 +1028,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="aidl" optional="true">
-        <name>vendor.lineage.power</name>
+        <name>vendor.mokee.power</name>
         <interface>
             <name>IPower</name>
             <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.lineage.touch</name>
+        <name>vendor.mokee.touch</name>
         <version>1.0</version>
         <interface>
             <name>ITouchscreenGesture</name>
@@ -1043,7 +1043,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.lineage.trust</name>
+        <name>vendor.mokee.trust</name>
         <version>1.0</version>
         <interface>
             <name>IUsbRestrict</name>
@@ -1051,7 +1051,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.lineage.livedisplay</name>
+        <name>vendor.mokee.livedisplay</name>
         <version>2.0</version>
         <interface>
             <name>IPictureAdjustment</name>

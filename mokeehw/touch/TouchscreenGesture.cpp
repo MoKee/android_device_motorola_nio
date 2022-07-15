@@ -34,7 +34,7 @@ constexpr GestureInfo kGestureNodes[] = {
 }  // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -51,7 +51,7 @@ Return<void> TouchscreenGesture::getSupportedGestures(getSupportedGestures_cb re
 }
 
 Return<bool> TouchscreenGesture::setGestureEnabled(
-        const ::vendor::lineage::touch::V1_0::Gesture& gesture, bool enabled) {
+        const ::vendor::mokee::touch::V1_0::Gesture& gesture, bool enabled) {
     if (gesture.id >= std::size(kGestureNodes)) {
         return false;
     }
@@ -68,5 +68,5 @@ Return<bool> TouchscreenGesture::setGestureEnabled(
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace lineage
+}  // namespace mokee
 }  // namespace vendor

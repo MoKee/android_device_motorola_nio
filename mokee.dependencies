@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_motorola_nio",
+    "target_path": "vendor/motorola/nio"
+  },
+  {
     "repository": "android_kernel_motorola_sm8250",
     "target_path": "kernel/motorola/sm8250"
   },
